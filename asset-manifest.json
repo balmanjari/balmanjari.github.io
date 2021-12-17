@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.085c98eb.chunk.css",
-    "main.js": "/static/js/main.7cb65e81.chunk.js",
-    "main.js.map": "/static/js/main.7cb65e81.chunk.js.map",
+    "main.css": "/static/css/main.58a9a3b9.chunk.css",
+    "main.js": "/static/js/main.c7011019.chunk.js",
+    "main.js.map": "/static/js/main.c7011019.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.69927705.js",
     "runtime-main.js.map": "/static/js/runtime-main.69927705.js.map",
     "static/js/2.a8e401c8.chunk.js": "/static/js/2.a8e401c8.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.b3cdd05c.chunk.js": "/static/js/3.b3cdd05c.chunk.js",
     "static/js/3.b3cdd05c.chunk.js.map": "/static/js/3.b3cdd05c.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.085c98eb.chunk.css.map": "/static/css/main.085c98eb.chunk.css.map",
+    "static/css/main.58a9a3b9.chunk.css.map": "/static/css/main.58a9a3b9.chunk.css.map",
     "static/js/2.a8e401c8.chunk.js.LICENSE.txt": "/static/js/2.a8e401c8.chunk.js.LICENSE.txt",
     "static/media/Balmanjari_logo-2.e6e19c5b.png": "/static/media/Balmanjari_logo-2.e6e19c5b.png",
     "static/media/BhagavadGita1.548b9000.png": "/static/media/BhagavadGita1.548b9000.png",
@@ -21,7 +21,7 @@
   "entrypoints": [
     "static/js/runtime-main.69927705.js",
     "static/js/2.a8e401c8.chunk.js",
-    "static/css/main.085c98eb.chunk.css",
-    "static/js/main.7cb65e81.chunk.js"
+    "static/css/main.58a9a3b9.chunk.css",
+    "static/js/main.c7011019.chunk.js"
   ]
 }
