@@ -10,3 +10,31 @@
     gap: 2vmin;
     justify-content: space-evenly;
 }
+
+@media screen and (max-width: 800px) {
+    .videos {        
+        display: grid;
+        grid-template-columns: auto;
+        gap: 2vmin;
+        justify-content: space-evenly;
+    }
+
+    .videos div div iframe{
+        height: 50vmin;
+        width: 80vmin;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .videos {        
+        display: grid;
+        grid-template-columns: auto;
+        gap: 2vmin;
+        justify-content: space-evenly;
+    }
+
+    .videos div div iframe{
+        height: 50vmin;
+        width: 80vmin;
+    }
+}

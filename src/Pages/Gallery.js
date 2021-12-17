@@ -8,7 +8,7 @@ function Gallery(props) {
     const APP_API = 'https://www.googleapis.com/youtube/v3/playlistItems';
     const PLAYLIST_ID = 'PLbb-XGzKsMeuMUMSTsHGT95PGbeIsvETH'; //public API
     
-    const {videos, setVideos} = props;
+    const {videos, setVideos} = props;    
 
     useEffect(() => {
         const abortController = new AbortController();
@@ -49,7 +49,7 @@ function Gallery(props) {
                     // console.log(videos ? console.log("Here :::", videos) : console.log("nothing here"))
                     videos !== [] & videos !== undefined & videos !== null ?
                     videos.map(video => {
-                        console.log(video);
+                        // console.log(video);
                         return <div key={'div_'+video}><YouTube key={video} videoId={video} opts={{playerVars: {'origin': 'https://github.io'}}} /></div>
                         // //return <ReactPlayer key={video['videoId']} url={`https://www.youtube.com/watch?v=${video['videoId']}&list=${PLAYLIST_ID}`} />
                         // return <YoutubeEmbed key={video['videoId']} embedId={video['videoId']} title={video['title']} PLAYLIST_ID={PLAYLIST_ID} />
