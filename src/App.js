@@ -2,6 +2,7 @@ import { useState } from 'react';
 
 import {
   BrowserRouter as Router,
+  HashRouter,
   Routes,
   Route,
   Link
@@ -22,7 +23,7 @@ function App() {
 
   return (
     <div className="App">
-      <Router>
+      <HashRouter>
         <div className="topnav" id="myTopnav">
           <Link to="/" className={navSelect === "home" ? "active" : null} onClick={() => {setNavSelect("home"); document.getElementById("myTopnav").classList.remove("responsive");}}>Home</Link>
           {/* <Link to="/balmanjari-dev" className={navSelect === "home" ? "active" : null} onClick={() => { setNavSelect("home"); document.getElementById("myTopnav").classList.remove("responsive"); }}>Home</Link> */}
@@ -46,7 +47,7 @@ function App() {
           <Route path="/contact" element={<Contact />} />
           <Route path="https://balmanjari.github.io/contact" element={<Contact />} />
         </Routes>
-      </Router>
+      </HashRouter>
       {/* <div className="om">&#2384;</div> */}
     </div>
   );
