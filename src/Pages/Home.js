@@ -27,7 +27,7 @@ function Home() {
                         <div className="flip-card-inner">
                             <div className="flip-card-front">
                                 <img src={BhagavadGita} alt="Bhagavad Gita" />
-                                <h4><b>Bhagavad Gita</b></h4>
+                                <h4><b>Sanskar</b></h4>
                             </div>
                             <div className="flip-card-back">
                                 <h2>Bhagavad Gita</h2>
