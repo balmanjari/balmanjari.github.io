@@ -1,7 +1,13 @@
 .web-content {
     display: flex;
     align-items: center;
-    flex-direction: column;
+    flex-direction: column;    
+}
+
+.about {
+    margin: 2vmin 20vmin 2vmin 20vmin;
+    font-size: 4vmin;
+    text-align: justify;
 }
 
 .videos {
